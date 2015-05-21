@@ -14,7 +14,6 @@ public class WordCounterTopology {
 			.shuffleGrouping("generator");
 		builder.setBolt("counter", new CounterBolt(),1)
 			.fieldsGrouping("splitter", new Fields("word"));
-		
 
 		Config conf = new Config();
 		conf.put("filepath", "words.dat");
