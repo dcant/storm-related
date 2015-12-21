@@ -1,0 +1,20 @@
+package com.sample
+ 
+import cn.edu.sjtu.dclab.stormdrools.StormDrools.Message;
+ 
+rule "Hello World"
+    when
+        m : Message( message == "badass", myMessage : message )
+    then
+        System.out.println( myMessage );
+        m.setMessage( "good" );
+        m.setStatus( Message.GOOD );
+        update( m );
+end
+
+rule "GoodBye"
+    when
+        Message( status == Message.GOOD, myMessage : message )
+    then
+        System.out.println( myMessage );
+end

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/antlr-3.3.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/antlr-runtime-3.3.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/bcmail-jdk14-138.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/bcprov-jdk14-138.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/drools-clips-5.5.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/drools-compiler-5.5.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/drools-core-5.5.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/drools-decisiontables-5.5.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/drools-jsr94-5.5.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/drools-persistence-jpa-5.5.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/drools-templates-5.5.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/drools-verifier-5.5.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/ecj-3.5.1.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/guava-r06.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/itext-2.1.2.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/javassist-3.14.0-GA.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/jsr94-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/jxl-2.6.10.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/knowledge-api-5.5.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/knowledge-internal-api-5.5.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/mvel2-2.1.3.Final.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/stringtemplate-3.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/xml-apis-1.3.04.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/xmlpull-1.1.3.1.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/xpp3_min-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="/home/dcant/Downloads/drools-distribution-5.5.0.Final/binaries/xstream-1.4.1.jar"/>
+	<classpathentry kind="src" path="rules"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
